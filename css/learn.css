@@ -1,0 +1,93 @@
+/* Universal selector it is used to select and style all the element on the page but not really used 
+*{
+    font-family: monospace
+    ;
+} */
+
+/* Element selector or type selector */
+body{
+    font-size: 22;
+}
+
+/*main{
+    font-family: monospace;
+}
+
+p{
+    color: purple;
+}*/
+
+
+/* class selector which uses the full stop sign to indicate the class which will be selected in the html file and it can be reuse for more than one page 
+.lexicon{
+    font-size: 20;
+    color: red;
+}*/
+
+
+/* id selector which uses the # sigh to indicate the Id which will be selected in the html file 
+#first{
+    font-size: 10;
+    color: blue;
+    font-style: italic;
+}*/
+
+/* group selector or mutiple selector it is used by adding the , to the two tags 
+h1, h2{
+    color: brown;
+}*/
+
+/* Decendent selector combinator 
+.box p{
+    color: blue;
+}*/
+
+
+/* The child combinator (>) is placed between two CSS selectors i.e the parent and the specific child
+article > p{
+    color: gold;
+    font-weight: bold;
+    background-color: #333;
+    padding: .5em;
+}*/
+
+/* The adjacent sibling selector (+) is used to select something if it is right next to another element at the same level of the hierarchy.
+For example, to select all <p> elements that come right after <h1> elements: 
+h1 + p{
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}*/
+
+/* General Sibling Combinator
+it is use to select element even if they are not directly adjacent. we use the general sibling combinator (~) sign
+.general h1 ~ p{
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}*/
+
+
+
+ /*Css pseudo classes
+ unvisited link 
+ a:link {
+    color: tomato;
+}
+
+ visited link 
+a:visited {
+    color: tomato;
+}
+
+ mouse over element 
+div:hover {
+    color: tomato;
+} 
+
+selected link 
+a:active{
+    color: #0000FF
+}*/
